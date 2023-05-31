@@ -15,9 +15,9 @@
     <section class="Top">
         <form action="">
             <label for="points">Points:</label>
-            <input type="number" id="points" name="points" required><br><br>
+            <input type="number" class="inputPoints" id="points" name="points" required><br><br>
             <label for="location">Start Location:</label>
-            <select name="surburb" id="surburb">
+            <select name="suburb" id="suburb" class="kasi">
                 <option value=""></option>
                 <option value="Khayelitsha">Khayelitsha</option>
                 <option value="Dunoon">Dunoon</option>
@@ -31,34 +31,34 @@
     <section class="Middle">
         <div class="rad1">
             <label for="radio">Peak</label>
-            <input type="radio" name="radio" id="busy"><br>
+            <input type="radio" class="times"name="radio" id="busy"><br>
 
         </div>
-        <div class="rad2">
-            <label for="radio">Off Peak</label>
-            <input type="radio" name="radio" id="slow"><br>
+        <div>
+            <label for="radio">Off_Peak</label>
+            <input type="radio" class="times" name="radio" id="slow"><br>
         </div>
 
         <div class="check">
-            <input type="checkbox" name="checkbox" id="">
+            <input type="checkbox" name="checkbox" id="" class="checked">
             <label for="checkbox">Return Trip</label>
         </div>
 
-        <div class="btn">
-            <input type="button" value="Calculate">
+        <div >
+            <input type="button" class="btn" value="Calculate">
         </div>
     </section>
     <h4>Calculations</h4>
     <section class="below">
         <form action="">
             <label for="trips">Number of single trips:</label>
-            <input type="" id="trips" name="trips" placeholder="Display the number of trips"><br><br>
+            <span placeholder="Display the number of trips">0</span><br><br>
             <label for="trips">Price per trip(single):</label>
-            <input type="" id="trips" name="trips" placeholder="Display price per trip"><br><br>
+            <span placeholder="Display price per trip">0</span> <br><br>
             <label for="trips">Number of Return trips:</label>
-            <input type="" id="trips" name="trips" placeholder="Display the number of return trips"><br><br>
+            <span placeholder="Display the number of return trips">0</span><br><br>
             <label for="trips">Price per trip(return):</label>
-            <input type="" id="trips" name="trips" placeholder="Display price per trip"><br><br>
+            <span placeholder="Display price per trip">0</span><br><br>
         </form>
     </section>
 </body>
